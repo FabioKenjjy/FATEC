@@ -1,0 +1,28 @@
+body {
+    box-sizing: content-box;
+    margin: 10px auto;
+    max-width: 80%;
+
+}
+.link{
+    margin-left: 350px;
+}
+
+.capa{
+    text-align: center  ;
+}
+
+#cabecalho{
+    margin-bottom: 25px;
+}
+footer{
+    font-weight: bold;
+    text-align: center;
+}
+#imgfundo{
+    background-image: url("./imagens/fundo.png");
+}
+
+.imgfundo2{
+    background-image: url("./imagens/fundo2.png");
+}

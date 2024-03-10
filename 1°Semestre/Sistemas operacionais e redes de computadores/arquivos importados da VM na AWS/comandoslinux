@@ -1,0 +1,38 @@
+    1  pwd
+    2  sudo su
+    3  ls
+    4  ls -a
+    5  clear
+    6  mkdir
+    7  mkdir fabio
+    8  ls
+    9  pwd
+   10  cd fabio
+   11  pwd
+   12  mkdir sor
+   13  ls
+   14  cd sor/
+   15  pwd
+   16  cd ..
+   17  pwd
+   18  ls
+   19  ls /
+   20  cd sor
+   21  pwd
+   22  cd ..
+   23  ls
+   24  ls -l
+   25  pwd
+   26  cd sor
+   27  pwd
+   28  nano texto
+   29  ls
+   30  cat texto
+   31  cat texto > texto2
+   32  cat texto2
+   33  diff
+   34  diff texto texto2
+   35  nano texto2
+   36  diff texto texto2
+   37  history
+   38  history > comandoslinux

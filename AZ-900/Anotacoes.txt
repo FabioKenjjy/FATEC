@@ -1,0 +1,34 @@
+on premises -> pesquisar
+
+capex -> Despesa de capital, O gasto inicial é na infraestrutura física
+custos são reduzidos ao longo do tempo.
+
+capex -> Despesas operacionais, você gasta de acordo com o que você usa.
+
+escalabilidade -> capacidade de aumentar de acordo com a demanda
+eslaticidade -> capacidade de aumentar os recursos
+
+recuperação de desastres -> ter dois servidores que funcionam exatamente da mesma forma, então se um estragar tem o outro
+
+Nuvem pública = 
+Pertencem a provedores de serviços de nuvem (microsoft, por exemplo).
+Fornece serviço para várias empresas e organizações.
+Organização paga apenas o que usa
+
+Nuvem privada = A empresa/organização cria um ambiente em nuvem em seu datacenter,
+a organização é responsável pelo serviço e pelas dispesas de hardware e manutenção
+Funciona apenas dentro da empresa
+
+Nuvem hibrida = 
+combina os dois cenários, ou seja, a empresa pode colocar parte na nuvem publica e parte na privada.
+Exemplo, uma empresa pode ter o seu banco de dados na nuvem privada, mas esse banco de dados funciona em uma aplicação
+web que está em uma nuvem pública.
+
+Computação em nuvem é a entrega de serviço de computação através da internet, permitindo maior velocidade
+recursos flexíveis e economia de escala (quanto mais clientes o provedor tiver, mais barato será o produto).
+
+Infraestrutura como serviço (IaaS) -> pesquisar (cliente que gerencia maior parte)
+Plataforma como serviço (PaaS) -> pesquisar (cliente gerencia um pouco)
+Software como serviço (SaaS) -> pesquisar (cliente não gerencia praticamente nada)
+
+SLA VM > Service Level Agreement. É como se fosse um contrato que diz o quanto a VM tem que estar disponível

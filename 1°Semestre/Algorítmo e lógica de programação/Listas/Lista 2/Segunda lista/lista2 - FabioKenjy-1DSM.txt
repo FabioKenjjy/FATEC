@@ -1,0 +1,118 @@
+Fábio Kenjy Sato Lucas - 1°DSM - Lista 2
+
+1-
+lado1 = int(input("Digite o primeiro lado: "))
+lado2 = int(input("Digite o segundo lado: "))
+lado3 = int(input("Digite o terceiro lado: "))
+
+if ( (lado1 + lado2) > lado3 ) and  ( (lado3 + lado2) > lado1 ) and ( (lado1 + lado3) > lado2 ):
+    if (lado1 == lado2) and (lado1 == lado3) and (lado2 == lado3):
+        print("O triângulo é Equilátero")
+    elif( (lado1 != lado2) and (lado1 == lado3) and (lado2 != lado3 ) ) or ( (lado1 != lado2) and (lado2 == lado3) and (lado1 != lado3) ) or ( (lado3 != lado2) and (lado1 == lado2) and (lado1 != lado3) ):
+        print("O triângulo é isósseles")
+    elif(lado1 != lado2) and (lado1 != lado3) and (lado2 != lado3):
+        print("O triângulo é escaleno")
+
+else:
+    print("Não é triângulo")
+
+
+
+2-
+ano = int(input("Informe o ano: "))
+
+if ano % 4 == 0 and (ano % 100 != 0 or ano % 400 == 0):
+    print("O ano é bissexto")
+else:
+    print("O ano não é bissexto")
+
+
+
+3-
+peso = float(input("Qual o peso do peixe: "))
+
+if peso > 50:
+    pesoExcesso = peso - 50
+    multa = pesoExcesso * 4
+    print(f"O peso passou {pesoExcesso: .2f}Kg, então o valor da multa será de R${multa: .2f}")
+else:
+    print("O peso está dentro do limite, sem multa a pagar")
+
+
+4-
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
+num3 = int(input("Digite o terceiro número: "))
+
+maiorNum = num1
+
+if maiorNum < num2:
+    maiorNum = num2
+
+if maiorNum < num3:
+    maiorNum = num3
+
+print(f"O maior número é {maiorNum}")
+
+
+5-
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
+num3 = int(input("Digite o terceiro número: "))
+
+menorNum = num1
+maiorNum = num2
+
+if menorNum > num2:
+    menorNum = num2
+    
+if menorNum > num3:
+    menorNum = num3
+    
+if maiorNum < num1:
+    maiorNum = num1
+    
+if maiorNum < num3:
+    maiorNum = num3
+
+print(f"O menor número é {menorNum} e o maior número é {maiorNum}")
+
+
+
+6-
+ganhoHora = float(input("Quantos você ganha por hora: "))
+
+horasMes = int(input("Quantas horas você trabalha por mês: "))
+
+salBruto = ganhoHora * horasMes
+
+IR = (11 * salBruto) / 100
+INSS = (8 * salBruto) / 100
+sindicato = (5 * salBruto / 100)
+
+descontos = IR + INSS + sindicato
+
+salLiquido = salBruto - descontos
+
+print(f"Salário Bruto = R${salBruto: .2f}")
+print(f"INSS = R${INSS: .2f}")
+print(f"Sindicato = R${sindicato: .2f}")
+print(f"Salário Líquido = R${salLiquido: .2f}")
+
+
+
+7-
+metrosQuadrados = int(input("Quantos metros quadrados você irá pintar: "))
+
+litros = metrosQuadrados / 3
+
+numLata = litros / 18
+
+if(numLata % 2) != 0:
+    numLata = int(numLata) + 1
+
+preco = numLata * 80
+    
+print(f'Você deverá comprar {numLata} latas de tintas, e isso custará R${preco: .2f}')
+    
+    

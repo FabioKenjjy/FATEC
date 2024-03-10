@@ -1,0 +1,106 @@
+Nome: Fábio Kenjy Sato Lucas   Turma: 1° DSM
+
+1-
+num1 =int(input("Digite o primeiro numero: "))
+num2 = int(input("Digite o segundo numero: "))
+
+soma = num1 + num2
+
+print(num1, "+", num2, "é igual a", soma)
+
+
+2-
+metros = float(input("Digite um valor em metros: "))
+
+conversao = metros * 1000
+
+print(metros, "metros é igual a", conversao, "milimetros")
+
+
+3-
+dias = int(input("Número de dias: "))
+horas = int(input("Número de horas: "))
+minutos = int(input("Número de minutos: "))
+segundos = int(input("Número de segundos: "))
+
+minSeg = minutos * 60
+horaSeg = horas * 3600
+diaSeg = dias * 86400
+
+totalSeg = (segundos + minSeg + horaSeg + diaSeg)
+
+print("O total de segundos é", totalSeg)
+
+
+4-
+salario = float(input("Digite seu salário: "))
+porcentagem = int(input("Digite a porcentagem de aumento: "))
+
+aumento = (salario * porcentagem) / 100
+novoSal = salario + aumento
+
+print("Você irá ganhar R$", aumento, "A mais, seu novo salário será de R$", novoSal)
+
+
+5-
+mercadoria = float(input("Qual o valor da mercadoria: "))
+porcentagem = int(input("Qual o percentual de desconto: "))
+
+desconto = (mercadoria * porcentagem) / 100
+novoPreco = mercadoria - desconto
+
+print("Você terá R$", desconto, "de desconto, então o preço da mercadoria será R$", novoPreco)
+
+
+6-
+distancia = int(input("Qual a distancia da viagem em Km: "))
+velocidade = int(input("Qual a velocidade média da viagem Km/h: "))
+
+tempo = distancia / velocidade
+
+print("A viagem irá demorar", tempo, "horas")
+
+
+7-
+Celsius = float(input("Digite a temperatura em Celsius: "))
+
+F = (9 * Celsius) / 5 + 32
+
+F_arredondado = round(F, 2)
+
+print(Celsius, "Graus Celsius é igual a", F_arredondado, "Fahrenheit")
+
+
+8-
+F = float(input("Digite a temperatura em Fahrenheit: "))
+
+C = (F-32)/1.8
+
+print(F, "Fahrenheit será", C, "graus Celsius")
+
+
+9-
+distancia = int(input("Qual a distancia que você percorreu (em Km): "))
+dias = int(input("Por quantos dias o carro foi alugado: "))
+
+precoDia = dias * 60
+precoDistancia = distancia * 0.15
+
+precoTotal = precoDia + precoDistancia
+
+print("O total a pagar será", precoTotal, "reais")
+
+
+10-
+cigarrosPorDia = int(input("Quantos cigarros você fuma por dia: "))
+anosFumados = int(input("Quantos anos você fumou: "))
+
+tempoPerdidoDia = cigarrosPorDia * 10
+minPerdido = (tempoPerdidoDia * 365) * anosFumados
+diasPerdidos = minPerdido / 1440
+
+print(f"Você perdeu, {diasPerdidos:.2f} dias")
+
+
+11-
+print(len(str(2 ** 1000000)))
