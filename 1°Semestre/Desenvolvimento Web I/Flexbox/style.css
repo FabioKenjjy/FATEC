@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: #00F;
+    margin:10px ;
+}
+
+.div1{
+    flex:1;
+    background-color: #0F0;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.div2{
+    flex:1;
+    background-color: #0F0;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.div3{
+    flex:1;
+    background-color: #0F0;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.div4{
+    flex:3;
+    background-color: #0F0;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}

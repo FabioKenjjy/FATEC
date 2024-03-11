@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    background-color: #DDD;
+    height: 500px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.div10{
+    align-self: flex-start;
+    order: 1;
+}
+
+.div14{
+    order: 2;
+}
+
+.div15{
+    order: -1;
+}
+
+.container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F00;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
